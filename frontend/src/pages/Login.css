@@ -1,0 +1,108 @@
+
+   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap');
+
+.ccontainer {
+  min-height: 100vh;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.logos {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.logos a {
+  color: #e93232;
+  font-weight: 700;
+  padding: 15px 20px;
+  letter-spacing: 5px;
+  text-shadow: 5px 0 8px #e15353;
+}
+.logos a span {
+  font-family: 'Clicker Script', cursive;
+  font-size: 70px;
+  display: block;
+  text-align: center;
+}
+.main-content {
+  flex: 1;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+
+.login-form {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 48px;
+  border-radius: 15px;
+  width: 350px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.25);
+  transition: box-shadow 0.2s;
+}
+.login-form:hover {
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.35);
+}
+.form-icon {
+  color: #e93232;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.social-login-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.or-text {
+  font-size: 14px;
+  color: #d1d5db;
+  margin-bottom: 4px;
+}
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  transition: filter 0.2s;
+}
+.social-btn svg {
+  font-size: 18px;
+}
+.social-btn:hover {
+  filter: brightness(1.1);
+}
+.social-btn.google   { background: #db4437; }
+.social-btn.github   { background: #333;    }
+.social-btn.facebook { background: #1877f2; }
+
+
+
+.foot {
+  text-align: center;
+  padding: 12px 0;
+  font-size: 14px;
+}
+
+  
+ 
